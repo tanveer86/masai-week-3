@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="playerName" id="playerNames">
+        <h1>Please Enter Names to Play</h1>
+        <h3>Player 1 Name</h3>
+        <input type="text" id="name1" placeholder="Enter Your Name" required>
+        <h3>Player 2 Name</h3>
+        <input type="text" id="name2" placeholder="Enter Your Name" required> <br><br>
+        <input type="submit" id="submitNames">
+    </div>
+
+    <div class="content">
+        <div class="playerDetails1">
+            <div>
+                <img src="https://marketplace.canva.com/MAB4Yqx-uWs/1/thumbnail_large/canva-young-executive-woman-profile-icon--MAB4Yqx-uWs.png" alt="" width="100">
+                <h1 id="playerName1">Player 1 Name</h1>
+                <h2>X</h2>
+            </div>
+        </div>
+        <div class="gameDetails">
+            <div class="playerturn">
+                <h1 id="playerTurn">Tic-Tac-Toe</h1>
+            </div>
+            <div id="boxRow1" class="box1">
+                <button id="select1"></button>
+                <button id="select2"></button>
+                <button id="select3"></button>
+            </div>
+            <div id="boxRow2" class="box2">
+                <button id="select4"></button>
+                <button id="select5"></button>
+                <button id="select6"></button>
+            </div>
+            <div id="BoxRom3" class="box3">
+                <button id="select7"></button>
+                <button id="select8"></button>
+                <button id="select9"></button>
+            </div>
+            <div>
+                <button class="playAgain" id="playAgain">Play Again</button>
+            </div>
+        </div>
+        <div class="playerDetails2">
+            <div>
+                <img src="https://i.pinimg.com/originals/83/59/b3/8359b3a99dcc02f245eeb29a3d4b9e0e.png" alt="" width="100">
+                <h1 id="playerName2">Player 2 Name</h1>
+                <h2>O</h2>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
